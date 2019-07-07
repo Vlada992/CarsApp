@@ -4,30 +4,17 @@
     box-sizing: border-box;
 }
 
-/*
-.car-div-cont {
-    border-radius:10px;
-    height:150px;
-    width:70%;
-    position: relative;
-}
-.car-div-cont img {
-    position: absolute; top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-}
-*/
-
 .car-col-cont-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 300px;
+    height: 350px;
     width: 300px !important;
     border-right: 2px solid black;
     padding: 0px !important;
 }
 
+/* select various div cards with nth and align/justify them as presented in task1 */
 div:nth-of-type(3n + 3) {
     border-right: none;
     align-items: flex-end;
@@ -45,13 +32,20 @@ div:nth-child(n+4) {
     justify-content: flex-end;
     border-bottom: none;
 }
+/* select various div cards with nth and align/justify them as presented in task1 */
 
+
+/*card class holding  car image and text*/
 .card {
-    border-radius: 10px;
+    border-radius: 7% !important;
     width: 70%;
     height: 250px;
     position: relative;
     border: 2px solid black !important;
+}
+
+.card-img-top {
+    border-radius: 7% !important;
 }
 
 .card-body {
@@ -65,10 +59,22 @@ div:nth-child(n+4) {
     padding: 1%;
 }
 
+/*when viewport shrink to mobile size center vertic/horizont all cols children (cards)*/
 @media only screen and (max-width: 560px) {
     .car-col-cont-1 {
         justify-content: center !important;
         align-items: center !important;
         border: 2px solid black !important;
     }
+}
+
+/*col new class without borders */
+.car-col-cont-1-hide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 350px;
+    width: 300px !important;
+    border: none !important;
+    padding: 0px !important;
 }

@@ -13,7 +13,7 @@ import CarRender from '../../containers/CarRender';
 
 class Car extends React.Component {
     constructor(props) {
-        super()
+        super(props)
         this.state = {
             isFlipped: false,
             imgClass: 'card-img-top',
@@ -30,8 +30,8 @@ class Car extends React.Component {
     }
 
     handleClick = e => {
-        //althought React is unidirectional, we can pass value from child to parent with parent selectedCars method here
 
+        //althought React is unidirectional, we can pass value from child to parent with parent selectedCars method here
         let [{ carsChoosen, eachCar, selectedCars }, { clicked }] = [this.props, this.state]
         let { name } = eachCar;
         if (carsChoosen.length >= 3 && !this.state.clicked) return alert('You can\'t add more than 3 cars on track')
@@ -56,7 +56,7 @@ class Car extends React.Component {
         let [{ name }, { searchVal, eachCar }] = [this.props.eachCar, this.props];
         let [{ isFlipped, imgClass, clicked }, { handleHover, handleClick }] = [this.state, this];
         let propsArr = [colClass, imgClass, isFlipped, clicked], methodArr = [handleHover, handleClick];
-        let nameStr = String(name).toLowerCase() 
+        let nameStr = String(name).toLowerCase()
         if (searchVal === nameStr.slice(0, searchVal.length) && searchVal) colClass = 'car-col-cont-1-hide'
         return (
             <CarRender

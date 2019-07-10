@@ -1,23 +1,22 @@
 .car-row-cont-2 {
   justify-content: center;
-  margin-top:10%;
-
+  margin-top: 10%;
 }
 
 .car-col-cont-2 {
-  border-bottom:2px solid black; 
+  border-bottom: 2px solid black;
 }
 
 .car-row-cont-1 {
   justify-content: center;
-  margin-top:10%;
-  margin-bottom:10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .car-col-cont-1 {
-  border-bottom:2px solid black; 
+  border-bottom: 4px solid darkred;
 }
 
 .form-group-own {
-  width:100%;
+  width: 100%;
 }

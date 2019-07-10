@@ -32,4 +32,8 @@
     height: auto !important;
 }
 
+.form-placeholder {
+    font-style:italic;
+}
+
 /* Search input styling */

@@ -7,6 +7,12 @@ import { Container, Row } from 'reactstrap';
 
 
 class App extends Component {
+
+  /*
+  * constructor built-in lifecycle method is [first] executed in first phase [CREATION]
+  * when we define constructor method  we should always call super() method in order for the class to inherit parent clas methods/props,
+  * in this case parent being React object itself
+  */
   constructor(props) {
     super(props)
     this.state = {
@@ -17,6 +23,7 @@ class App extends Component {
   }
 
   //Fetch json obj with axios and put data into state
+  //componentDidMount built-in lifecycle method is [second] executed *afterr constructor) in first phase [CREATION]
   componentDidMount() {
     axios.get('data.json')
       .then(apiData => {
@@ -47,6 +54,8 @@ class App extends Component {
       this.setState({ carsChoosen: [...new Set([...this.state.carsChoosen, name])] })
   }
 
+  //render built-in lifecycle method is [third] executed in first phase [CREATION]
+  //it will be executed on each this.setState() method being called.
   render() {
     let [{ apiData, searchVal }, { updateInputSearch }] = [this.state, this], eachCar;
     if (apiData) {
@@ -82,7 +91,7 @@ class App extends Component {
         )
       })
     }
-    
+
     return (
       <>
         {/* using reactstrap bootstrap module */}

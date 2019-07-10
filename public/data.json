@@ -15,7 +15,7 @@
         "https://www.mazdausa.com/siteassets/vehicles/2017/m3s/trims/sport/17-m3s-sp-25d-snowflake-white.png",
       "speed": 235,
       "description":
-        "The Fiat Punto is a supermini car produced by the Italian manufacturer Fiat since 1993.",
+        "The Mazda3 or Mazda 3 is a compact car manufactured in Japan by Mazda. It was introduced in 2003 as a 2004 model",
       "name": "Mazda 3",
       "id": 2
     },
@@ -23,7 +23,7 @@
       "image": "http://www.nriol.com/images/benz-cla.png",
       "speed": 280,
       "description":
-        "The Fiat Punto is a supermini car produced by the Italian manufacturer Fiat since 1993.",
+        "Mercedes-Benz is a German global automobile marque and a division of Daimler AG",
       "name": "Mercedes Benz CLA",
       "id": 3
     },
@@ -32,7 +32,7 @@
         "https://images.honda.ca/models/H/Models/2017/civic_sedan/ex_t_10417_nh_830mlunar_silver_metallic_front.png?width=1000",
       "speed": 177,
       "description":
-        "The Fiat Punto is a supermini car produced by the Italian manufacturer Fiat since 1993.",
+        "The Honda Civic is a superfast car produced by the Japanese manufacturer Fiat since 1993.",
       "name": "Honda Civic",
       "id": 4
     },
@@ -41,16 +41,16 @@
         "http://images.nadaguides.com/Models/320x240/2010-smart-fortwo.png",
       "speed": 102,
       "description":
-        "The Fiat Punto is a supermini car produced by the Italian manufacturer Fiat since 1993.",
+        "Smart (stylized as smart)[1] is a German automotive brand and division of Daimler AG",
       "name": "Smart",
       "id": 5
     },
     {
       "image":
-        "https://cdn.jdpower.com/Models/640x480/2018-Toyota-RAV4-HybridLE.jpg",
+        "https://i.imgur.com/aUsyn95.png",
       "speed": 150,
       "description":
-        "The Toyota is a fantastic car, created in Japan",
+        "Toyota is a fantastic car, created in Japan, biggest producer in the world",
       "name": "Toyota",
       "id": 6
     }
